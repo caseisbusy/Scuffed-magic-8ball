@@ -21,7 +21,7 @@ if (which.toLowerCase() === 'nice' || which.toUpperCase() === "nice") {
 	}, 2000)
 
 } else if (which.toLowerCase() === 'bad' || which.toUpperCase() === 'bad') {
-	let question = prompt("Ask the 8ball a question.. ")
+	let question = prompt("Ask the 8ball a question ")
 	let animation = chalkAnimation.rainbow(question + '? ' + badReply)
 
 	setTimeout(() => {
